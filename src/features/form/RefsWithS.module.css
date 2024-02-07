@@ -1,0 +1,87 @@
+.form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+}
+.formControl {
+    width: 200px;
+}
+.selectedReferencesWrapper{
+    max-width: 600px;
+    min-width: 200px;
+    margin: 0 auto;
+    height: fit-content;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 20px;
+    /* align-items: start; */
+    /* justify-content: center; */
+
+}
+
+.removeSelectedReferenceButton{
+    color: white;
+}
+.removeSelectedReferenceButton:hover{
+    color: rgb(254, 145, 145);
+    cursor: default;
+}
+.selectedReferencesItem{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    max-width: fit-content;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+.formInput {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+.formReferencesInput {
+    width: 100%;
+    height: fit-content;
+    /* height: 50px; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ReferencesDropdownWrapper{
+    /* border: 1px solid rgb(98, 98, 98); */
+    border-radius: 2px;
+    width: 206px;
+    z-index: 2;
+}
+
+
+.ReferencesDropdownItem{
+    background-color: rgb(255, 255, 255);
+    /* width: 10; */
+    padding: 3px;
+    border-bottom: 1px solid rgb(98, 98, 98);
+    border-left: 1px solid rgb(98, 98, 98);
+    border-right: 1px solid rgb(98, 98, 98);
+}
+.ReferencesDropdownItem:hover {
+    background-color: rgb(222, 220, 220);
+}
+
